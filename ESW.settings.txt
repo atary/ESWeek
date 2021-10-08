@@ -1,0 +1,23 @@
+searcherChoice = SimAnneal
+proposerChoice = AllLocalMoves
+
+inputDirectory = data/release2.0/dynamic/input
+observationsFile = ESW1.txt   
+
+outputDirectory = data/release2.0/dynamic/output
+reportFile = dynamic.report.txt
+
+
+variableCount = 5
+
+minMarkovLag = 0
+maxMarkovLag = 0
+dbnMandatoryIdentityLags = 1
+equivalentSampleSize = 1.0
+
+nBestNetworks = 5
+bestNetworksAre = nonidenticalThenPruned
+
+maxTime = 30 s	
+maxParentCount = 2
+createDotOutput = yes
